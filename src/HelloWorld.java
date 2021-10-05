@@ -50,5 +50,11 @@ public class HelloWorld {
 //        Long Max Value = 9223372036854775807
 //        Long Min Value = -9223372036854775808
 //        A long occupies 64 bits, has a width of 64
+
+//        Casting
+        int myTotal = (myMaxIntValue / 2);
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+        short myNewShortValue = (short) (myMinShortValue / 2);
+//        Advice always use int(integer) unless you got a perfect reason not too
     }
 }
