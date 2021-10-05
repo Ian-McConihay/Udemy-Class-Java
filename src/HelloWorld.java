@@ -56,5 +56,29 @@ public class HelloWorld {
         byte myNewByteValue = (byte) (myMinByteValue / 2);
         short myNewShortValue = (short) (myMinShortValue / 2);
 //        Advice always use int(integer) unless you got a perfect reason not too
+
+    byte challengeByte = 100;
+    short challengeShort = 1000;
+    int challengeInt = 10000;
+    long challengeLong = 50000L + 10L * (challengeByte + challengeShort + challengeInt);
+
+    System.out.println(challengeLong);
+
+        float myMinFloatValue = Float.MIN_VALUE;
+        float myMaxFloatValue = Float.MAX_VALUE;
+        System.out.println("Float Min Value = " + myMinFloatValue);
+        System.out.println("Float Max Value = " + myMaxFloatValue);
+
+        double myMinDoubleValue = Double.MIN_VALUE;
+        double myMaxDoubleValue = Double.MAX_VALUE;
+        System.out.println("Double Min Value = " + myMinDoubleValue);
+        System.out.println("Double Max Value = " + myMaxDoubleValue);
+
+//        double is the preferred method and using the letter d on the end instead of (double)
+        int myIntValue = 5;
+//        float myFloatValue = (float) 5.25;
+        float myFloatValue = 5.25f;
+//        double myDoubleValue = (double) 5.25;
+        double myDoubleValue = 5.25d;
     }
 }
