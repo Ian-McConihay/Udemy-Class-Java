@@ -3,6 +3,12 @@ public class HelloWorld {
     public static void main(String[] args) {
 //        System.out.println("Hello, Ian");
 
+//        Primitive types
+//        rarely used byte short float
+//        commonly used int, double, boolean
+//        uncommon long and char
+
+
 //        int myFirstNumber = (10 + 5) + (2 * 10);
 //        int mySecondNumber = 12;
 //        int myFirstThird = myFirstNumber * 2;
@@ -98,6 +104,28 @@ public class HelloWorld {
         boolean myTrueBoolean = true;
         boolean myFalseBoolean = false;
         boolean isCustomerOverTwentyOne = true;
+
+        String myString = "This is my String";
+        System.out.println("myString is equal to " + myString);
+        myString = myString + ", and this is more.";
+        System.out.println("myString is equal to " + myString);
+        myString = myString + " \u00A9 2020";
+        System.out.println(myString);
+        String numberString = "250.55 ";
+        numberString = numberString + "49.95";
+        System.out.println(numberString);
+        String lastString = "10";
+        int myInt = 50;
+        lastString = lastString + myInt;
+        System.out.println("LastString is equal to " + lastString);
+        double doubleNumber = 120.47d;
+        lastString = lastString + doubleNumber;
+        System.out.println("LastString is equal to " + lastString);
+
+
+
+
+
 
 
 
