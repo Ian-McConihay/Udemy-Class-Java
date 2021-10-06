@@ -75,10 +75,33 @@ public class HelloWorld {
         System.out.println("Double Max Value = " + myMaxDoubleValue);
 
 //        double is the preferred method and using the letter d on the end instead of (double)
-        int myIntValue = 5;
-//        float myFloatValue = (float) 5.25;
-        float myFloatValue = 5.25f;
-//        double myDoubleValue = (double) 5.25;
-        double myDoubleValue = 5.25d;
+        int myIntValue = 5 / 3;
+//        float myFloatValue = (float) 5.25; float goes back 7 places
+        float myFloatValue = 5f / 3f;
+//        double myDoubleValue = (double) 5.25; double goes back 16 decimal places
+        double myDoubleValue = 5d / 3d;
+        System.out.println("MyIntValue= " + myIntValue);
+        System.out.println("MyFloatValue= " + myFloatValue);
+        System.out.println("MyDoubleValue= " + myDoubleValue);
+
+        double kiloGram = 0.45359237;
+        System.out.println(kiloGram * 45);
+        double pi = 3.1416027d;
+
+//        unicode is like a universal binary language
+//      char can only have one letter with single quotes
+        char myChar = 'D';
+        char myUniCode = '\u0044';
+        System.out.println(myUniCode);
+        System.out.println(myChar);
+
+        boolean myTrueBoolean = true;
+        boolean myFalseBoolean = false;
+        boolean isCustomerOverTwentyOne = true;
+
+
+
+
+
     }
 }
