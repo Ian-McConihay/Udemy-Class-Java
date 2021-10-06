@@ -122,10 +122,21 @@ public class HelloWorld {
         lastString = lastString + doubleNumber;
         System.out.println("LastString is equal to " + lastString);
 
+//        int operand = 15 + 12;
+//       + is the operator and 15, 12 are the operands. = is the assign operator. the literal value is 27
 
-
-
-
+        int result = 1 + 2; // 1 + 2 = 3
+        System.out.println("1 + 2 = " + result);
+        int previousResult = result;
+        System.out.println("previousResult = " + previousResult);
+        result = result - 1;
+        System.out.println("3 - 1 = " + result);
+        result = result * 10;
+        System.out.println("2 * 10 = " + result);
+        result = result / 5;
+        System.out.println("20 / 5 = " + result);
+        result = result % 3;
+        System.out.println("4 % 3 = " + result);
 
 
 
