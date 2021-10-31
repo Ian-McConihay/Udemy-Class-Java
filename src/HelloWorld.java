@@ -163,9 +163,53 @@ public class HelloWorld {
     }
 
     int secondTopScore = 60;
-    if(topScore > secondTopScore && topScore < 100) {
+    if((topScore > secondTopScore) && (topScore < 100)) {
         System.out.println("Greater than second top score and less than 100");
     }
+
+//and requires both to be true
+//        or requires one to be true
+        if((topScore > 90) || (secondTopScore <= 90)){
+            System.out.println("Either or both of the conditions are true");
+        }
+
+
+//        Equal operators double and single
+//        == is a check
+//        = is a assinment operator
+            int newValue = 50;
+        if(newValue == 50) {
+            System.out.println("This is the new value");
+        }
+
+//        !isCar checks for car
+        boolean isCar =false;
+        if(isCar){
+            System.out.println("This not supposed to happen");
+        }
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if(wasCar) {
+            System.out.println("wasCar true?");
+        }
+
+//boolean isEighteenOrOver
+
+
+        double twenty = 20.00d;
+        double eighty = 80.00d;
+        double theTotal = (twenty + eighty) * 100.00d;
+        System.out.println("My total = " + theTotal);
+        double theRemainder = theTotal % 40.00d;
+        System.out.println("My remainder = " + theRemainder);
+        boolean equation = (theRemainder == 0) ? true : false;
+        System.out.println("is the remainder 0? " + equation);
+        if(!equation) {
+            System.out.println("got some remainder");
+        }
+
+
 
 
 
